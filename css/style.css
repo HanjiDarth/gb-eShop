@@ -1,0 +1,319 @@
+@import "reset.css";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.body__wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.body__content {
+  flex-grow: 1;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  background: #222222;
+  color: #ffffff;
+  padding: 19px 0;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-right: 41px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right img:not(:last-child) {
+  margin-right: 33px;
+}
+.promo {
+  background: #f1e4e6;
+  height: 764px;
+}
+.promo__wrap {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: url(../img/hero.png) no-repeat -217px 0;
+}
+.promo__title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+  max-width: 404px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+.promo__title span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+.promo__decor {
+  color: #f16d7f;
+}
+.category {
+  margin-top: 65px;
+}
+.caterory__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category__item {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category__item:not(:last-child) {
+  width: 360px;
+  height: 260px;
+  margin-bottom: 30px;
+}
+.category__item:nth-child(1) {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
+    url(../img/category-1.png) no-repeat;
+  background-size: cover;
+}
+.category__item:nth-child(2) {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
+    url(../img/category-2.png) no-repeat;
+  background-size: cover;
+}
+.category__item:nth-child(3) {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
+    url(../img/category-3.png) no-repeat;
+  background-size: cover;
+}
+.category__item:nth-child(4) {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
+    url(../img/category-4.png) no-repeat;
+  background-size: cover;
+}
+.category__item p {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.category__item span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
+.category__item span:last-child {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+}
+.product {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product__title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.proguct__text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.product__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product__card {
+  background: #f8f8f8;
+  width: 360px;
+  margin-bottom: 30px;
+}
+.product__card img {
+  width: 360px;
+  height: 420px;
+}
+.card__content {
+  padding: 26px 28px 20px 17px;
+}
+.card__content h4 {
+  font-weight: 400;
+  margin-bottom: 13px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+.card__content p {
+  margin-bottom: 18px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+}
+.card__price {
+  color: #f16d7f;
+}
+.card__price::before {
+  content: "$";
+  color: #f16d7f;
+}
+.product__btn {
+  margin-top: 19px;
+  padding: 14px 38px;
+  color: #f26376;
+  border: 1px solid #ff6a6a;
+}
+.privilege {
+  margin-top: 96px;
+  padding: 104px 0;
+  background: #222224;
+}
+.privilege__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.privilege__item {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fbfbfb;
+}
+.privilege__item img {
+  height: 40px;
+  margin-bottom: 25px;
+}
+.privilege__item h4 {
+  font-weight: 400;
+  font-size: 19.96px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.privilege__item p {
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+}
+.subcribe {
+  height: 448px;
+  background: linear-gradient(
+      rgba(244, 244, 244, 0.7),
+      rgba(244, 244, 244, 0.7)
+    ),
+    url(../img/subscribe.jpg) no-repeat;
+  background-size: cover;
+}
+.subcribe__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.subcribe__person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+}
+.subcribe__person img {
+  margin-bottom: 30px;
+}
+.subcribe__person p {
+  width: 360px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+}
+.italic {
+  font-style: italic;
+}
+.subcribe__form {
+  margin-top: 150px;
+  padding: 0 100px;
+}
+.subcribe__form h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #222224;
+}
+.subcribe__form p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #222224;
+  margin-bottom: 32px;
+}
+.subcribe__form form {
+  display: inline-flex;
+}
+.subcribe__emailField {
+  display: block;
+  box-sizing: border-box;
+  background: #e1e1e1;
+  padding: 7px 22px 7px 22px;
+  width: 256px;
+  height: 50px;
+  border: none;
+  border-radius: 25px 0 0 25px;
+}
+.subcribe__btn {
+  display: block;
+  box-sizing: border-box;
+  background: #f16d7f;
+  padding: 7px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.footer {
+  background: #222224;
+}
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.footer__rights {
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+.footer__links a:not(:last-child) {
+  margin-right: 7px;
+}
+.footer__links img {
+  height: 32px;
+}
