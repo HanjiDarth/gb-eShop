@@ -44,8 +44,8 @@ body {
 .promo__wrap {
   height: 100%;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: end;
   background: url(../img/hero.png) no-repeat -217px 0;
 }
 .promo__title {
@@ -53,9 +53,14 @@ body {
   font-size: 48px;
   line-height: 58px;
   color: #222222;
-  max-width: 404px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.promo__title p {
   border-left: 12px solid #f16d7f;
   padding-left: 16px;
+  width: 406px;
 }
 .promo__title span {
   font-weight: 700;
