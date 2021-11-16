@@ -317,13 +317,12 @@ body {
 }
 .footer {
   background: #222224;
+  padding: 24px 0;
 }
 .footer__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .footer__rights {
   font-size: 16px;
@@ -341,6 +340,7 @@ body {
 }
 .breadcrumb {
   background-color: #f8f3f4;
+  padding: 60px 0;
 }
 .breadcrumb__wrap {
   display: flex;
