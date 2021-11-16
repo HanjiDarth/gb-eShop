@@ -19,8 +19,8 @@ body {
   flex-grow: 1;
 }
 .container {
-  max-width: 1140px;
-  padding: 0 10px;
+  max-width: 1170px;
+  padding: 0 15px;
   width: 100%;
   margin: 0 auto;
 }
@@ -65,7 +65,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
-  background: url(../img/hero.png) no-repeat -217px 0;
+  background: url(../img/hero.png) no-repeat -212px 0;
 }
 .promo__title {
   font-weight: 900;
@@ -322,7 +322,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .footer__rights {
   font-size: 16px;
@@ -337,4 +338,19 @@ body {
 }
 .footer__links img {
   height: 32px;
+}
+.breadcrumb {
+  background-color: #f8f3f4;
+}
+.breadcrumb__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.breadcrumb ul {
+  display: flex;
+  list-style-type: none;
+}
+.breadcrumb__item:not(:first-child)::before {
+  content: "/";
 }
