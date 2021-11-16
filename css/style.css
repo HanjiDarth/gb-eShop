@@ -43,7 +43,6 @@ body {
 .header .search__btn {
   display: flex;
   align-items: end;
-  background-color: #222222;
 }
 .header__menu {
   display: flex;
@@ -51,9 +50,6 @@ body {
 }
 .header__item:not(:last-child) {
   margin-right: 33px;
-}
-.header .hamburger__btn {
-  background-color: #222222;
 }
 .promo {
   background: #f1e4e6;
@@ -338,19 +334,68 @@ body {
 .footer__links img {
   height: 32px;
 }
-.breadcrumb {
+.cap {
   background-color: #f8f3f4;
   padding: 60px 0;
 }
-.breadcrumb__wrap {
+.cap__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.cap__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
 .breadcrumb ul {
   display: flex;
-  list-style-type: none;
 }
-.breadcrumb__item:not(:first-child)::before {
-  content: "/";
+.breadcrumb li a {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+.breadcrumb li span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+.breadcrumb li:not(:last-child)::after {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  margin: 0 8px 0 5px;
+  content: " /";
+}
+.filters {
+  padding: 40px 0 55px 0;
+}
+.filters__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filters__right {
+  display: flex;
+  align-items: center;
+  width: 750px;
+  border: 1px solid #ff6a6a;
+}
+.filters__btn {
+  display: flex;
+  padding: 5px 17px;
+}
+.filters__btn h2 {
+  margin-right: 10px;
+}
+.products__pagination {
+  margin-top: 19px;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
 }

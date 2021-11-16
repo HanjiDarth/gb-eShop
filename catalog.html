@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brand. E-shop</title>
+  <title>Brand. Catalog</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
 
 <body>
   <div class="body__wrapper">
-
+    
     <header class="header">
       <div class="header__wrap container">
         <div class="header__left">
@@ -44,43 +44,48 @@
     </header>
     <!-- /.header -->
 
+    <section class="cap">
+      <div class="cap__wrap container">
+        <h1 class="cap__title">NEW ARRIVALS</h1>
+        <nav class="breadcrumb">
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="#">MEN</a>
+            </li>
+            <li>
+              <span>NEW ARRIVALS</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- /.cap (breadcrumb) -->
+
     <main class="body__content">
 
-      <section class="promo">
-        <div class="promo__wrap container">
-          <div class="promo__title">
-            <h1>THE BRAND <span>OF&nbsp;LUXERIOUS <span class="promo__decor">FASHION</span></span></h1>
-          </div> 
+      <section class="filters">
+        <div class="filters__wrap container">
+          <details class="filters__left">
+            <summary>
+              <button class="filters__btn">
+                <h2>FILTER</h2>
+                <img src="img/collapse.svg" alt="icon:collapse">
+              </button>
+
+            </summary>
+
+          </details>
+          <div class="filters__right">
+            Тут будет сортировка, но позже
+          </div>
         </div>
       </section>
-      <!-- /.promo -->
-
-      <section class="categories">
-        <h2 class="invisible">Categories of products</h2>
-
-        <div class="categories__wrap container">
-          <a href="#" class="categories__item">
-            <h3>30% OFF<br><span>FOR WOMEN</span></h3>
-          </a>
-          <a href="#" class="categories__item">
-            <h3>HOT DEAL<br><span>FOR MEN</span></h3>
-          </a>
-          <a href="#" class="categories__item">
-            <h3>NEW ARRIVALS<br><span>FOR KIDS</span></h3>
-          </a>
-          <a href="#" class="categories__item">
-            <h3>LUXIROUS & TRENDY<br><span>ACCESORIES</span></h3>
-          </a>
-        </div>
-      </section>
-      <!-- /.categories -->
+      <!-- /.filters -->
 
       <section class="products container">
-        <div class="products__title">
-          <h2>Fetured Items</h2>
-          <p>Shop for items based on what we featured in this week</p>
-        </div>
-        
         <div class="cards__container">
           <article class="products__card">
             <img src="img/card-1.png" alt="img:products">
@@ -91,7 +96,7 @@
             </a>
           </article>
           <article class="products__card">
-            <img src="img/card-2.png" alt="img:products">
+            <img src="img/card-7.png" alt="img:products">
             <a href="#" class="card__content">
               <h3>ELLERY X M'O CAPSULE</h3>
               <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -115,7 +120,7 @@
             </a>
           </article>
           <article class="products__card">
-            <img src="img/card-5.png" alt="img:products">
+            <img src="img/card-8.png" alt="img:products">
             <a href="#" class="card__content">
               <h3>ELLERY X M'O CAPSULE</h3>
               <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -123,7 +128,31 @@
             </a>
           </article>
           <article class="products__card">
-            <img src="img/card-6.png" alt="img:products">
+            <img src="img/card-9.png" alt="img:products">
+            <a href="#" class="card__content">
+              <h3>ELLERY X M'O CAPSULE</h3>
+              <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+              <span class="card__price">52.00</span>
+            </a>
+          </article>
+          <article class="products__card">
+            <img src="img/card-10.png" alt="img:products">
+            <a href="#" class="card__content">
+              <h3>ELLERY X M'O CAPSULE</h3>
+              <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+              <span class="card__price">52.00</span>
+            </a>
+          </article>
+          <article class="products__card">
+            <img src="img/card-11.png" alt="img:products">
+            <a href="#" class="card__content">
+              <h3>ELLERY X M'O CAPSULE</h3>
+              <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+              <span class="card__price">52.00</span>
+            </a>
+          </article>
+          <article class="products__card">
+            <img src="img/card-12.png" alt="img:products">
             <a href="#" class="card__content">
               <h3>ELLERY X M'O CAPSULE</h3>
               <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -131,7 +160,9 @@
             </a>
           </article>
         </div>
-        <a href="catalog.html" class="products__btn">Browse All Products</a>
+        <div class="products__pagination">
+          Здесь будет навигация по страницам
+        </div>
       </section>
       <!-- /.products (Popular) -->
 
@@ -160,7 +191,7 @@
       </div>
     </section>
     <!-- /.advantages -->
-
+    
     <section class="subscribe">
       <div class="subscribe__wrap container">
         <div class="subscribe__person">
