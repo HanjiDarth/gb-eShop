@@ -111,22 +111,22 @@ body {
 }
 .categories__item:nth-child(1) {
   background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-    url(../img/category-1.png) no-repeat;
+    url(../img/category-1.png) center no-repeat;
   background-size: cover;
 }
 .categories__item:nth-child(2) {
   background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-    url(../img/category-2.png) no-repeat;
+    url(../img/category-2.png) center no-repeat;
   background-size: cover;
 }
 .categories__item:nth-child(3) {
   background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-    url(../img/category-3.png) no-repeat;
+    url(../img/category-3.png) center no-repeat;
   background-size: cover;
 }
 .categories__item:nth-child(4) {
   background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-    url(../img/category-4.png) no-repeat;
+    url(../img/category-4.png) center no-repeat;
   background-size: cover;
 }
 .categories__item h3 {
@@ -249,7 +249,7 @@ body {
       rgba(244, 244, 244, 0.7),
       rgba(244, 244, 244, 0.7)
     ),
-    url(../img/subscribe.jpg) no-repeat;
+    url(../img/subscribe.jpg) center no-repeat;
   background-size: cover;
 }
 .subscribe__wrap {
