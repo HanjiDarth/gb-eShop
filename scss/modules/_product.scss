@@ -1,0 +1,140 @@
+.slider {
+  background-color: #f7f7f7;
+  height: 777px;
+  border: 1px solid #eaeaea;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    margin-top: 11px;
+    margin-bottom: 42px;
+    height: 724px;
+  }
+
+  &__btn {
+    padding: 12.65px 17.3px;
+    background: rgba(42, 42, 42, 0.15);
+
+    & svg {
+      fill: #000000;
+    }
+
+    &:hover svg {
+      fill: #f16d7f;
+    }
+
+    &:active {
+      background: rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.product-description {
+  margin-bottom: 64px;
+
+  &__wrap {
+    position: relative;
+    top: -65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 0;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h2 {
+      font-style: 300;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #f16d7f;
+    }
+
+    & hr {
+      height: 3px;
+      width: 63px;
+      margin: 11px 0;
+      color: #ef5b70;
+      background-color: #ef5b70;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h3 {
+      margin-bottom: 48px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #4d4d4d;
+    }
+
+    & p {
+      margin-bottom: 32px;
+      max-width: 555px;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #5e5e5e;
+    }
+
+    & .price {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    & hr {
+      width: 641px;
+      margin: 65px 0 55px;
+      color: #eaeaea;
+      background-color: #eaeaea;
+    }
+
+    & .btn-add {
+      margin-top: 40px;
+      padding: 12px 55px 12px 25px;
+      border: 1px solid #f26376;
+
+      & svg {
+        margin-right: 22px;
+        fill: #f26376;
+      }
+
+      & span {
+        color: #f26376;
+      }
+
+      &:hover {
+        background-color: #f26376;
+
+        & svg {
+          fill: #ffffff;
+        }
+
+        & span {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  &__selector {
+    margin-bottom: 48px;
+    border: 1px solid #f26376;
+  }
+}
