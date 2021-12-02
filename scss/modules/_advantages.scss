@@ -1,0 +1,36 @@
+.advantages {
+  padding: 104px 0;
+  background: #222224;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fbfbfb;
+
+    & img {
+      height: 40px;
+      margin-bottom: 25px;
+    }
+
+    & h3 {
+      font-weight: 400;
+      font-size: 19.96px;
+      line-height: 24px;
+      margin-bottom: 16px;
+    }
+
+    & p {
+      font-weight: 300;
+      font-size: 13.972px;
+      line-height: 17px;
+      text-align: center;
+    }
+  }
+}

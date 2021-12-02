@@ -1,0 +1,40 @@
+.header {
+  background: #222222;
+  color: #ffffff;
+  padding: 18.5px 0;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: 41px;
+  }
+
+  & .btn-search {
+    fill: #e8e8e8;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 33px;
+    }
+
+    & svg {
+      fill: #e8e8e8;
+    }
+  }
+}

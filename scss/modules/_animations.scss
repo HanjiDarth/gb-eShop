@@ -1,0 +1,22 @@
+.header__logo {
+  transition: all 2s;
+}
+
+.card,
+.cart-card,
+.footer__links a {
+  transition: all 0.5s;
+}
+
+.header__logo:hover {
+  transform: rotateZ(360deg);
+}
+
+.footer__links a:hover {
+  transform: scale(1.1);
+}
+
+.card:hover,
+.cart-card:hover {
+  transform: scale(1.05);
+}

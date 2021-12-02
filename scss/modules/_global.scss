@@ -1,0 +1,51 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+}
+
+.invisible {
+  position: absolute;
+  left: -999999px;
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000000;
+
+  & span {
+    color: #000000;
+  }
+}
+
+.price {
+  color: #f16d7f;
+
+  &::before {
+    content: "$";
+    color: inherit;
+  }
+}
+
+.body-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content {
+  flex-grow: 1;
+}
+
+.container {
+  box-sizing: content-box;
+  max-width: 1140px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
