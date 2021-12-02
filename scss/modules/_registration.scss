@@ -1,0 +1,118 @@
+.registration {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 64px 0 96px;
+
+  &__input-group {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+
+    & h3 {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      color: #222222;
+
+      margin-bottom: 21px;
+    }
+
+    & input[type="text"] {
+      padding: 15px 17px;
+
+      border: 1px solid #a4a4a4;
+
+      &:not(:last-of-type) {
+        margin-bottom: 21px;
+      }
+
+      &::placeholder {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #b1b1b1;
+      }
+    }
+
+    & div {
+      & label {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+
+        padding-left: 10px;
+
+        &:not(:last-of-type) {
+          margin-right: 20px;
+        }
+      }
+      margin-top: 31px;
+    }
+
+    & p {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: #b1b1b1;
+
+      margin-top: 16px;
+    }
+  }
+
+  &__btn {
+    border: 0px;
+    background-color: #f16d7f;
+
+    padding: 16px 30px;
+    margin-top: 40px;
+
+    & span {
+      margin-right: 20px;
+      color: #ffffff;
+    }
+
+    & svg {
+      fill: #ffffff;
+    }
+  }
+
+  .registration-right {
+    margin-left: 128px;
+    max-width: 652px;
+
+    & h3 {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      margin-bottom: 22px;
+    }
+
+    & p {
+      margin-bottom: 21px;
+    }
+
+    & ul li {
+      list-style: none;
+      background: url(../../img/mark.svg) no-repeat left 50%;
+      padding-left: 45px;
+
+      &:not(:last-of-type) {
+        margin-bottom: 16px;
+      }
+    }
+
+    & p,
+    & ul li {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+    }
+  }
+}
